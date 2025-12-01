@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ffff;
+    color: #1a1a1a;
+}
+
+.navbar{
+    width: 100%;
+    padding: 25px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: 700;
+    color: #0c3c84;
+}
+
+nav a{
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav a.active{
+    color: #e22d2d;
+    font-weight: 600;
+}
+
+.nav-buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-btn{
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.purchase-btn{
+    background: #0c3c84;
+    color: white;
+    padding: none;
+    border-radius: 14px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+    gap: 50px;
+}
+
+.hero-text{
+    flex: 1;
+}
+
+.subtitle{
+    color: #756f87;
+    font-size: 14px;
+}
+
+.hero h1 span{
+    color: #000;
+}
+
+.description{
+    margin: 20px 0;
+    width: 90%;
+    line-height: 1.6;
+    color: #444;
+}
+
+.hero-buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn-primary{
+    background: #0c3c84;
+    color: white;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn-outline{
+    background: #ffff;
+    border: 2px solid #0c3c84;
+    color: #0c3c84;
+    padding: 14px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.hero-image img{
+    width: 500px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
