@@ -119,14 +119,35 @@
     </section>
 
     <!-- Contacto -->
-    <section id="contacto" class="contact-section">
-        <h2>Contáctanos</h2>
-        <form class="contact-form">
-            <input type="text" placeholder="Nombre" required>
-            <input type="email" placeholder="Correo" required>
-            <textarea placeholder="Mensaje" required></textarea>
-            <button class="btn-primary">Enviar</button>
-        </form>
+    <section class="contact-section" id="contacto">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Contáctanos</h2>
+                <p>Estamos aquí para ayudarte. Escríbenos y te responderemos lo antes posible.</p>
+                <div class="contact-details">
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Calle 123 #45-67, Bogotá, Colombia</span>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+57 300 123 4567</span>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>contacto@digitmarketing.com</span>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Correo electrónico" required>
+                <input type="text" placeholder="Asunto">
+                <textarea placeholder="Escribe tu mensaje..." required></textarea>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
     </section>
 
     <!-- Footer -->

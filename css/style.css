@@ -338,10 +338,6 @@ nav a.active{
     transition: 0.3s;
 }
 
-.footer-btn:hover{
-    background: #003bbd;
-}
-
 .footer-social{
     display: flex;
     gap: 18px;
