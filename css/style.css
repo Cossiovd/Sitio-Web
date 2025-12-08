@@ -185,7 +185,7 @@ nav a.active{
     justify-content: flex-end;
     align-items: center;
     position: relative;
-    background: url(../assets/banner5.jpg) center/cover no-repeat;
+    background: url(../assets/banner-nosotros.jpg) center/cover no-repeat;
     padding: 120px 0;
     color: white;
 }
@@ -281,16 +281,6 @@ nav a.active{
     font-size: 1rem;
     line-height: 1.6;
     color: #555;
-}
-
-.hero-ideas{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    position: relative;
-    background: url(../img/banner5.jpg) center/cover no-repeat;
-    padding: 120px 0;
-    color: white;
 }
 
 .footer{
