@@ -46,11 +46,15 @@ nav a.active{
     gap: 15px;
 }
 
-.search-btn{
-    background: none;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
+.search-input{
+    width: 230px;
+    padding: 10px 14px;
+    border:  1px solid #d4dbea;
+    border-radius: 10px;
+    background: #f8faff;
+    font-size: 0.95rem;
+    transition: 0.2s ease;
+    color: #333;
 }
 
 .purchase-btn{
@@ -181,7 +185,7 @@ nav a.active{
     justify-content: flex-end;
     align-items: center;
     position: relative;
-    background: url(../img/banner5.jpg) center/cover no-repeat;
+    background: url(../assets/banner5.jpg) center/cover no-repeat;
     padding: 120px 0;
     color: white;
 }

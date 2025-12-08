@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,22 +9,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <title>Sitio web</title>
+    <title>Sitio Web</title>
 </head>
 <body>
+
+    <!-- Navbar -->
     <header class="navbar">
         <h2 class="logo">Digit<span>Marketing</span></h2>
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#">Sobre nosotros</a>
-            <a href="#">Servicios</a>
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
         </nav>
         <div class="nav-buttons">
-            <button class="search-btn">Buscar</button>
+            <input type="search" class="search-input" placeholder="Buscar..." name="search">
             <button class="purchase-btn">Compra</button>
         </div>
     </header>
-    <section class="hero">
+
+    <!-- Inicio -->
+    <section id="inicio" class="hero">
         <div class="hero-text">
             <p class="subtitle">We are gathered</p>
             <h1>For Your Digital Marketing</h1>
@@ -35,97 +41,102 @@
             </div>
         </div>
         <div class="hero-image">
-            <img src="./img/banner3.jpg" alt="Team Meeting">
+            <img src="./assets/banner3.jpg" alt="Team Meeting">
         </div>
     </section>
-    <section class="services-section">
+
+    <!-- Servicios -->
+    <section id="servicios" class="services-section">
         <div class="services-header">
             <div>
                 <p class="services-subtitle">Design & Marketing</p>
                 <h2 class="services-title">Let's grow your business together.</h2>
             </div>
-            <p class="services-description">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.</p>
+            <p class="services-description">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
         </div>
+
         <div class="services-grip">
             <div class="service-item">
-                <div>
-                    <img src="" alt="User icon">
-                </div>
+                <div><img src="" alt="Icon"></div>
                 <h4>Great Support</h4>
-                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.Lorem ipsum viverra feugiat.</p>
+                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
             </div>
-
             <div class="service-item">
-                <div>
-                    <img src="" alt="User icon">
-                </div>
+                <div><img src="" alt="Icon"></div>
                 <h4>Perfect Design</h4>
-                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.Lorem ipsum viverra feugiat.</p>
+                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
             </div>
             <div class="service-item">
-                <div>
-                    <img src="" alt="User icon">
-                </div>
+                <div><img src="" alt="Icon"></div>
                 <h4>SEO Optimized</h4>
-                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.Lorem ipsum viverra feugiat.</p>
+                <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
             </div>
         </div>
     </section>
-    <section class="hero-section">
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="hero-section">
         <div class="overlay"></div>
         <div class="content">
             <p class="subtitle">Open The Future</p>
             <h1 class="title">Innovative Design & <br> Branding</h1>
-            <p class="description">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrice nunc ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet elit. Non quae, fugiat nihil ad. Lorem ipsum dolor sit amet.</p>
+            <p class="description">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrice nunc ligula.</p>
+
             <div class="stats">
                 <div class="stat-item">
-                    <div class="circle">
-                        <span>95%</span>
-                    </div>
-                    <p class="label">Desing</p>
+                    <div class="circle"><span>95%</span></div>
+                    <p class="label">Design</p>
                 </div>
                 <div class="stat-item">
-                    <div class="circle">
-                        <span>75%</span>
-                    </div>
+                    <div class="circle"><span>75%</span></div>
                     <p class="label">24/7 Support</p>
                 </div>
                 <div class="stat-item">
-                    <div class="circle">
-                        <span>75%</span>
-                    </div>
+                    <div class="circle"><span>75%</span></div>
                     <p class="label">Daily Updates</p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="steps-section">
+
+    <!-- Galeria -->
+    <section id="galeria" class="steps-section">
         <div class="steps-card">
-            <img src="./img/g1.jpg" alt="Research">
+            <img src="./assets/g1.jpg" alt="Research">
             <h3>Research</h3>
-            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
-            Lorem ipsum viverra feugiat.</p>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
         </div>
         <div class="steps-card">
-            <img src="./img/g2.jpg" alt="Presentation">
+            <img src="./assets/g2.jpg" alt="Presentation">
             <h3>Presentation</h3>
-            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
-            Lorem ipsum viverra feugiat.</p>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
         </div>
         <div class="steps-card">
-            <img src="./img/g3.jpg" alt="Investigation">
+            <img src="./assets/g3.jpg" alt="Investigation">
             <h3>Investigation</h3>
-            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
-            Lorem ipsum viverra feugiat.</p>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo.</p>
         </div>
     </section>
 
+    <!-- Contacto -->
+    <section id="contacto" class="contact-section">
+        <h2>Contáctanos</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Nombre" required>
+            <input type="email" placeholder="Correo" required>
+            <textarea placeholder="Mensaje" required></textarea>
+            <button class="btn-primary">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-about">
                 <h2>Digit<span>Marketing</span></h2>
-                <p>Lorem ipsum dolor sit, amet consectetur elit.Pellen tesque libero ut justo, ultrices in ligula accusantium libero fugit.</p>
-                <a href="" class="footer-btn">Try It For Free</a>
+                <p>Lorem ipsum dolor sit, amet consectetur elit.</p>
+                <a href="#" class="footer-btn">Try It For Free</a>
+
                 <div class="footer-social">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -133,34 +144,38 @@
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
+
             <div class="footer-col">
                 <h3>Links</h3>
                 <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#galeria">Galería</a></li>
                 </ul>
             </div>
+
             <div class="footer-col">
-                <h3>Services</h3>
+                <h3>Servicios</h3>
                 <ul>
-                    <li><a href=""></a></li>
+                    <li><a href="#servicios">Marketing</a></li>
                 </ul>
             </div>
+
             <div class="footer-col">
-                <h3>More info</h3>
+                <h3>Más info</h3>
                 <ul>
-                    <li><a href=""></a></li>
+                    <li><a href="#">Políticas</a></li>
                 </ul>
             </div>
+
             <div class="footer-col">
-                <h3>Support</h3>
+                <h3>Soporte</h3>
                 <ul>
-                    <li><a href=""></a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
         </div>
     </footer>
+
 </body>
 </html>
