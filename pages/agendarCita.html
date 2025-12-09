@@ -11,52 +11,55 @@
     <title>Agendar cita</title>
 </head>
 <body>
-    <section class="appointment-section">
-        <h1>Agendar Cita</h1>
-        <p>Completa el formulario y nos pondremos en contacto contigo para confirmar la cita de tu mascota.</p>
-        <form class="appointment-form" action="#" method="POST">
-            <div class="form-group">
-                <label for="nombre">Tu nombre</label>
-                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+     <section class="appointment-section">
+        <div class="appointment-container">
+            <div class="appointment-info">
+                <h2>Agendar cita</h2>
+                <p>Completa el siguiente formulario y nuestro equipo se comunicará contigo para confirmar la atención de tu mascota.</p>
             </div>
-            <div class="form-group">
-                <label for="mascota">Nombre de tu mascota</label>
-                <input type="text" id="mascota" name="mascota" placeholder="Nombre de la mascota" required>
-            </div>
-            <div class="form-group">
-                <label for="servicio">Tipo de servicio</label>
-                <select id="servicio" name="servicio" required>
-                    <option value="">Selecciona una opción</option>
-                    <option>Consulta general</option>
-                    <option>Vacunación</option>
-                    <option>Desparasitación</option>
-                    <option>Urgencias</option>
-                    <option>Control médico</option>
-                    <option>Grooming / baño</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="fecha">Fecha deseada</label>
-                <input type="date" id="fecha" name="fecha" required>
-            </div>
-            <div class="form-group">
-                <label for="hora">Hora deseada</label>
-                <input type="time" id="hora" name="hora" required>
-            </div>
-            <div class="form-group">
-                <label for="telefono">Número de contacto</label>
-                <input type="tel" id="telefono" name="telefono" placeholder="300 000 0000" required>
-            </div>
-            <div class="form-group">
-                <label for="correo">Correo electrónico</label>
-                <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
-            </div>
-            <div class="form-group full">
-                <label for="mensaje">Mensaje adicional</label>
-                <textarea id="mensaje" name="mensaje" placeholder="Escribe detalles importantes o síntomas..." rows="4"></textarea>
-            </div>
-            <button type="submit" class="btn-submit">Enviar</button>
-        </form>
+            <form class="appointment-form">
+                <div class="form-group">
+                    <label for="owner">Nombre del dueño</label>
+                    <input type="text" id="owner" placeholder="Tu nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="pet">Nombre de la mascota</label>
+                    <input type="text" id="pet" placeholder="Ej: Luna, Max…" required>
+                </div>
+                <div class="form-group">
+                    <label for="type">Tipo de mascota</label>
+                    <select id="type" required>
+                        <option value="">Seleccionar</option>
+                        <option>Perro</option>
+                        <option>Gato</option>
+                        <option>Conejo</option>
+                        <option>Ave</option>
+                        <option>Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="service">Servicio requerido</label>
+                    <select id="service" required>
+                        <option value="">Seleccionar</option>
+                        <option>Consulta general</option>
+                        <option>Vacunación</option>
+                        <option>Desparasitación</option>
+                        <option>Cirugía</option>
+                        <option>Peluquería</option>
+                        <option>Urgencias</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Fecha deseada</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje adicional</label>
+                    <textarea id="message" placeholder="Describe los síntomas o tu solicitud"></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+        </div>
     </section>
 </body>
 </html>
