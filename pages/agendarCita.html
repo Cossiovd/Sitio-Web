@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="../css/formulario.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -11,6 +11,52 @@
     <title>Agendar cita</title>
 </head>
 <body>
-    <h1>Agendar cita</h1>
+    <section class="appointment-section">
+        <h1>Agendar Cita</h1>
+        <p>Completa el formulario y nos pondremos en contacto contigo para confirmar la cita de tu mascota.</p>
+        <form class="appointment-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="nombre">Tu nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="mascota">Nombre de tu mascota</label>
+                <input type="text" id="mascota" name="mascota" placeholder="Nombre de la mascota" required>
+            </div>
+            <div class="form-group">
+                <label for="servicio">Tipo de servicio</label>
+                <select id="servicio" name="servicio" required>
+                    <option value="">Selecciona una opción</option>
+                    <option>Consulta general</option>
+                    <option>Vacunación</option>
+                    <option>Desparasitación</option>
+                    <option>Urgencias</option>
+                    <option>Control médico</option>
+                    <option>Grooming / baño</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="fecha">Fecha deseada</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="form-group">
+                <label for="hora">Hora deseada</label>
+                <input type="time" id="hora" name="hora" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Número de contacto</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="300 000 0000" required>
+            </div>
+            <div class="form-group">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+            </div>
+            <div class="form-group full">
+                <label for="mensaje">Mensaje adicional</label>
+                <textarea id="mensaje" name="mensaje" placeholder="Escribe detalles importantes o síntomas..." rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </section>
 </body>
 </html>
