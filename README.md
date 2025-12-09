@@ -7,8 +7,8 @@ Tecnologias utilizadas: HTML5 y CSS
 Url del proyecto: https://cossiovd.github.io/Sitio-Web/
 
 Instrucciones de instalación o visualización: 
-1. Clonar el repositorio: ```bash git clone https://github.com/Cossiovd/Sitio-Web.git```
-2. Entrar al proyecto: ```bash cd Sitio-Web```
+1. Clonar el repositorio: ```git clone https://github.com/Cossiovd/Sitio-Web.git```
+2. Entrar al proyecto: ```cd Sitio-Web```
 3. Abrir el archivo principal index.html o usar la extensión Live Server en VS Code
 
 Autora: Dayana Cossio Vargas
